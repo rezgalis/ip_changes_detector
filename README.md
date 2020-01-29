@@ -14,8 +14,8 @@ Just set it up via cron:
 
 ## Just in case - how to set up new InfluxDB database and/or user
 ```
-CREATE USER "iot" WITH PASSWORD 'iot56'
-CREATE DATABASE "iot"
-GRANT WRITE ON "iot" TO "iot"
+CREATE USER "iot_user" WITH PASSWORD 'iot56'
+CREATE DATABASE "iot_db"
+GRANT WRITE ON "iot_db" TO "iot_user"
 ```
 
